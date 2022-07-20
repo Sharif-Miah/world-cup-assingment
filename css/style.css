@@ -403,3 +403,39 @@ hr {
 }
 
 /*-------------- End Media Query------------- */
+
+
+
+/*---------------Start Allgroup CSS--------------- */
+
+.flag-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.gellury-img .germany {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.gellury-img span {
+    margin-top: 25px;
+}
+
+.gellury-img .potugal {
+    width: 30%;
+    margin-left: 10px;
+
+}
+
+.flag-text {
+    text-align: center;
+}
+
+.flag-text h4 {
+    margin-bottom: 10px;
+}
+
+/*---------------End Allgroup CSS--------------- */
