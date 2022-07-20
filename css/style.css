@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------- ReUse code-------------*/
+.d-flex {
+    display: flex;
+}
+
+.container {
+    padding: 50px 140px 130px;
+
+}
+
+.btn {
+    border: none;
+    background-color: #DD0000;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*----------start Header section------------------*/
+.header-bg-color {
+    background-color: #161616;
+    border-radius: 20px;
+
+}
+
+.content-text {
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 108px;
+}
+
+.content-text h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content-text p {
+    font-size: 18px;
+    line-height: 1.9;
+    width: 70%;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.content-img {
+    width: 50%;
+    text-align: center;
+}
+
+.content-img img {
+    width: 70%;
+}
+
+.btn a i {
+    margin-left: 10px;
+}
+
+
+/*----------End Header section------------------*/
+
+
+
+/*----------start Main section------------------*/
+.link-site {
+    width: 15%;
+    margin-right: 20px;
+}
+
+.link-menu {
+    background-color: #161616;
+    padding: 30px;
+}
+
+.gellury-site {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
+.gellury-item {
+    border: 3px solid salmon;
+}
+
+.gellury-img img {
+    width: 100%;
+}
+
+/*----------End Main section------------------*/
