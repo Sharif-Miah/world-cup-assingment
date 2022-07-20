@@ -141,6 +141,7 @@ body {
     border-radius: 5px;
     text-align: center;
     margin: 10px 0;
+    cursor: pointer;
 
 }
 
@@ -167,6 +168,7 @@ h5,
 
 .gellury-img img {
     width: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 /*----------End Main section------------------*/
@@ -187,6 +189,10 @@ h5,
     font-size: 40px;
     margin-bottom: 30px;
     color: #fff;
+}
+
+hr {
+    color: #B9B9B9;
 }
 
 .link ul {
@@ -212,12 +218,13 @@ h5,
 }
 
 .social-icon a {
-    /* color: #fff; */
+    color: #161616;
     background-color: #B9B9B9;
     padding: 13px;
     border-radius: 50%;
     margin-right: 30px;
     font-size: 20px;
+
 }
 
 /*--------------End Footer section-------------*/
