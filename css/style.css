@@ -312,13 +312,80 @@ hr {
         display: flex;
         justify-content: center;
         margin-top: 10px;
-        padding-bottom: 100px;
+        padding-bottom: 20px;
     }
 
     .social-icon a {
         margin-right: 20px;
     }
+
+    .gellury-item h3 {
+        font-size: 12px;
+    }
 }
 
+
+@media screen and (min-width: 810px) and (max-width: 1080px) {
+    .container {
+        padding: 20px;
+    }
+
+    .header-bg-color {
+        padding-bottom: 30px;
+    }
+
+    .content-text {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .content-text h1 {
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .content-text p {
+        font-size: 14px;
+        line-height: 1.6;
+        width: 70%;
+        margin-bottom: 25px;
+    }
+
+
+    /* main selection */
+
+    .link-site {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .link-menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .link-item:nth-child(3) {
+        margin-bottom: 22px;
+    }
+
+    .gellury-site {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+
+    .social-icon {
+        padding-bottom: 40px;
+    }
+
+}
 
 /*-------------- End Media Query------------- */
