@@ -25,15 +25,70 @@ body {
     border: none;
     background-color: #DD0000;
     padding: 12px 30px;
+    /* width: 100px;
+    height: 40px; */
     cursor: pointer;
     border-radius: 5px;
+    position: relative;
 }
 
 .btn a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    letter-spacing: 2px;
 }
+
+/*-------------- btn-animation--------------- */
+
+button {
+    border: none;
+    border-radius: 5px;
+}
+
+a.animaton-btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #DD0000;
+    letter-spacing: 2px;
+    position: relative;
+    transition: all .35s;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+a.animaton-btn::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #26156b;
+    transition: all .35s;
+    z-index: -1;
+
+}
+
+a.animaton-btn:hover {
+    color: #fff;
+}
+
+a.animaton-btn:hover::after {
+    width: 100%;
+}
+
+
+/*-------------- btn-animation--------------- */
+
+
 
 /*----------start Header section------------------*/
 .header-bg-color {
@@ -108,6 +163,14 @@ body {
 
 .link-item:nth-child(3) {
     margin-bottom: 0;
+}
+
+.upcomming-match {
+    background-color: #DD0000;
+}
+
+.upcomming-match a.all-up-com {
+    color: #fff;
 }
 
 .all-group {
@@ -230,7 +293,7 @@ hr {
 
 .social-icon a {
     color: #161616;
-    background-color: #B9B9B9;
+    background-color: #FFF;
     padding: 13px;
     border-radius: 50%;
     margin-right: 30px;
@@ -265,7 +328,7 @@ hr {
     }
 
     .content-text h1 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         color: #fff;
         width: 100%;
