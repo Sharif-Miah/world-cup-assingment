@@ -361,6 +361,10 @@ hr {
         margin-right: 0;
     }
 
+    .link-item {
+        text-align: center;
+    }
+
     .gellury-site {
         width: 100%;
         display: grid;
